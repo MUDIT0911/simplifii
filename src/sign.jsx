@@ -46,9 +46,14 @@ export default function Sign(){
            {!isClicked&&<React.Fragment>
             <div className='inputBox'>
             <span>+91</span>
-              <input type="text" maxLength="10" id="mobile" placeholder="Enter Mobile Number"></input>
+              <input type="number" maxLength="10" id="mobile" placeholder="Enter Mobile Number"></input>
             </div>
+            
             <button className="continueButton" onClick={()=>handleClick()}>Continue</button></React.Fragment>}
+            <div class="footer">
+        <p>By continuing you agree to our</p>
+        <h2>Terms of Services & Policy</h2>
+    </div>
                   
           </header>
         </div>

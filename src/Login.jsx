@@ -1,6 +1,8 @@
 import React from "react";
 import "./style1.css"
 function Login(){
+
+    
     return (
 <>
 
@@ -9,7 +11,7 @@ function Login(){
        <h3 >Verification</h3>
        <h1>OTP has been sent to +912424242424</h1>
        <div style={{width:"100vw",textAlign:'center'}}>
-       <input placeholder="Enter the OTP" className="box1 mx-auto"></input>
+       <input placeholder="Enter the OTP" className="box12 mx-auto"></input>
        </div>
          <div className="box" id="box2">Continue</div>
 </body>
